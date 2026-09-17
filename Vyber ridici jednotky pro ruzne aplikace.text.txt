@@ -1,0 +1,7 @@
+MCU - malí počítačový čip na jedný desce, ktarý řídí elektronické zařízení
+MPU - mediální procesní jednotka, hardwareová nebo softwareová součást pro zpracování obrazu či zvuku v realném čase 
+EMBEDDED- je specializovaný počítač,který je součástí většího zařízení a plní v něm konkrétní předem daný úkol
+PLC - je programovatelný logický automat, odolný průmysloví počítač určený k řízení a automatizaci strojů
+iPC - industrial PC - odolný počítač navržený pro provoz v náročném průmyslovém prostředí.
+Programovatelné relé - Malý programovatelný, logický automat (PLC), který slouží k automatizaci a řízení jednoduchých el. a tech. úloh
+SoC - integrovaný obvod, který na jediném kusu křemíku spojuje většinu klíčových obvodů.
