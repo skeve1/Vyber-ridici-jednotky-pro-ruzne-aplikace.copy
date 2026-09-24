@@ -218,12 +218,12 @@ Jste v roli projektanta automatizace. Zákazník poptává zhotovení řízení 
 2. **Výběr konkrétního hardwaru z katalogu výrobce:**
    - Navrhněte konkrétní přístroj z praxe (např. *Siemens LOGO! 24RCE + rozšiřující moduly*, *Siemens S7-1200 CPU 1212C/1214C DC/DC/RLY*, *Schneider Modicon M221*, *Eaton easyE4-UC-12RC1*, *WAGO 750*, případně průmyslový IoT kontrolér typu *UniPi Neuron*).
    - Uveďte:
-     - Výrobce a přesný model CPU: 	Siemens LOGO! 24RCE
-     - Objednací kód (Part Number / Order Code): 6ED1052-1HB08-0BA2
-     - Rozšiřující moduly (pokud jsou nutné pro AI 4–20 mA nebo AO 0–10 V): Siemens LOGO! AM2
-     - Napájecí napětí zvolené jednotky: 	24 V AC/DC
-     - Jak je vyřešeno odesílání dat na dispečink: 	Ethernet → Modbus TCP / případně webový přístup
-     - Odkaz na technický list (datasheet): https://sieportal.siemens.com/en-ww/products-services/detail/6ED1052-1HB08-0BA2?utm_source=chatgpt.com&tree=CatalogTree#overview
+     - Výrobce a přesný model CPU: Siemens SIMATIC S7-1200 SIPLUS CPU 1212C DC/DC/Relay	
+     - Objednací kód (Part Number / Order Code): 6AG1212-1HE40-4XB0
+     - Rozšiřující moduly (pokud jsou nutné pro AI 4–20 mA nebo AO 0–10 V): pro AO - SIPLUS SM 1232, 4 AO 6AG1232-4HD32-4XB0 + pro DO - SIPLUS SM 1222, 8 DO transistor 24 V DC / 0,5 A 6AG1222-1BF32-4XB0
+     - Napájecí napětí zvolené jednotky: 24V DC
+     - Jak je vyřešeno odesílání dat na dispečink: 	Přes Ethernet / Modbus TCP
+     - Odkaz na technický list (datasheet): https://sieportal.siemens.com/en-ww/products-services/detail/6AG12221BF324XB0?utm_source=chatgpt.com&tree=CatalogTree#overview
      - Odkazy na další použité zdroje: 
 
 3. **Technické ověření z datasheetu:**
