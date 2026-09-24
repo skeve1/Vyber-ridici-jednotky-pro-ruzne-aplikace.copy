@@ -218,13 +218,13 @@ Jste v roli projektanta automatizace. Zákazník poptává zhotovení řízení 
 2. **Výběr konkrétního hardwaru z katalogu výrobce:**
    - Navrhněte konkrétní přístroj z praxe (např. *Siemens LOGO! 24RCE + rozšiřující moduly*, *Siemens S7-1200 CPU 1212C/1214C DC/DC/RLY*, *Schneider Modicon M221*, *Eaton easyE4-UC-12RC1*, *WAGO 750*, případně průmyslový IoT kontrolér typu *UniPi Neuron*).
    - Uveďte:
-     - Výrobce a přesný model CPU: `...`
-     - Objednací kód (Part Number / Order Code): `...`
-     - Rozšiřující moduly (pokud jsou nutné pro AI 4–20 mA nebo AO 0–10 V): `...`
-     - Napájecí napětí zvolené jednotky: `...`
-     - Jak je vyřešeno odesílání dat na dispečink: `...`
-     - Odkaz na technický list (datasheet): `...`
-     - Odkazy na další použité zdroje: `...`
+     - Výrobce a přesný model CPU: 	Siemens LOGO! 24RCE
+     - Objednací kód (Part Number / Order Code): 6ED1052-1HB08-0BA2
+     - Rozšiřující moduly (pokud jsou nutné pro AI 4–20 mA nebo AO 0–10 V): Siemens LOGO! AM2
+     - Napájecí napětí zvolené jednotky: 	24 V AC/DC
+     - Jak je vyřešeno odesílání dat na dispečink: 	Ethernet → Modbus TCP / případně webový přístup
+     - Odkaz na technický list (datasheet): https://sieportal.siemens.com/en-ww/products-services/detail/6ED1052-1HB08-0BA2?utm_source=chatgpt.com&tree=CatalogTree#overview
+     - Odkazy na další použité zdroje: 
 
 3. **Technické ověření z datasheetu:**
    - Zvládá zvolená jednotka garantovaný provoz při -20 °C? Doložte údaj z datasheetu: `...`
