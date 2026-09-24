@@ -209,11 +209,11 @@ Jste v roli projektanta automatizace. Zákazník poptává zhotovení řízení 
 
 | Typ signálu | Požadavek aplikace (kusy) | Popis signálů v aplikaci | Počet po započtení rezervy (+20 %) |
 | :--- | :--- | :--- | :--- |
-| **Digitální vstup (DI)** | `...` | `...` | `...` |
-| **Digitální výstup (DO) – reléový** | `...` | `...` | `...` |
-| **Digitální výstup (DO) – tranzistorový** | `...` | `...` | `...` |
-| **Analogový vstup (AI)** | `...` | `...` | `...` |
-| **Analogový výstup (AO)** | `...` | `...` | `...` |
+| **Digitální vstup (DI)** | 5| 	3× plovákový hladinový spínač + 1× poruchový kontakt tepelné ochrany + 1× poruchový kontakt měniče/čerpadla | 6|
+| **Digitální výstup (DO) – reléový** | 2 | 2× stykač hlavního a záložního čerpadla| 3|
+| **Digitální výstup (DO) – tranzistorový** | 1|1× opticko-akustický výstražný maják 24 V DC  | 2 |
+| **Analogový vstup (AI)** | 1 | 1× hydrostatická sonda výšky hladiny, 4–20 mA | 2 |
+| **Analogový výstup (AO)** | 1 | 	1× řízení frekvenčního měniče, 0–10 V |2|
 
 2. **Výběr konkrétního hardwaru z katalogu výrobce:**
    - Navrhněte konkrétní přístroj z praxe (např. *Siemens LOGO! 24RCE + rozšiřující moduly*, *Siemens S7-1200 CPU 1212C/1214C DC/DC/RLY*, *Schneider Modicon M221*, *Eaton easyE4-UC-12RC1*, *WAGO 750*, případně průmyslový IoT kontrolér typu *UniPi Neuron*).
