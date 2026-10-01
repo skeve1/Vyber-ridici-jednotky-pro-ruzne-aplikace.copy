@@ -279,8 +279,8 @@ Jako vedoucí inženýr jste převzal projekt po nezkušeném brigádníkovi, kt
 | :--- | :--- | :--- | :--- |
 | **Elektromagnetická kompatibilita (EMC)** | `...` | Napěťové špičky z indukční zátěže hydraulických ventilů způsobí restart MCU... | `...` |
 | **Mechanická a teplotní odolnost** | PLA plast a montáž na těleso lisu | PLA krabička se rozteče kvůli vysokým teplotám a odlepí kvůli vybracím | `...` |
-| **Konektivita a propojení vodičů** | DuPont propojovací kabely bez aretace | `...` | `...` |
-| **Funkční bezpečnost (Safety)** | Nouzový stop řešený softwarově v čipu | `...` | `...` |
+| **Konektivita a propojení vodičů** | DuPont propojovací kabely bez aretace | Kabely mohou vypadnout kvůli vibracím | Vypadnuté kabely můžou probít obsluhu nebo zkratovat stroj |
+| **Funkční bezpečnost (Safety)** | Nouzový stop řešený softwarově v čipu | Čip se může poškodit a selže celý E stop | 💀 |
 
 2. **Návrh profesionálního nápravného řešení:**
    - Navrhněte, jakými certifikovanými průmyslovými komponenty tento celek nahradíte při zachování minimálního rozpočtu:
