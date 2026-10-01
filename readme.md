@@ -227,7 +227,7 @@ Jste v roli projektanta automatizace. Zákazník poptává zhotovení řízení 
      - Odkazy na další použité zdroje: 
 
 3. **Technické ověření z datasheetu:**
-   - Zvládá zvolená jednotka garantovaný provoz při -20 °C? Doložte údaj z datasheetu: `...`
+   - Zvládá zvolená jednotka garantovaný provoz při -20 °C? Doložte údaj z datasheetu: SIPLUS S7-1200 SM 1222 8DQ based on 6ES7222-1BF32-0XB0 with conformal coating, -20…+60 °C
    - Jakým způsobem spínáte cívku stykače 230 V AC (reléový výstup jednotky přímo, nebo přes pomocné mezilehlé relé)? Zdůvodněte: `...`
 
 4. **Krytí rozváděče:**
