@@ -277,8 +277,8 @@ Jako vedoucí inženýr jste převzal projekt po nezkušeném brigádníkovi, kt
 
 | Oblast auditu | Zjištěná vada v amatérském návrhu | Fyzikální mechanismus selhání (proč to selže) | Následek pro stroj nebo obsluhu |
 | :--- | :--- | :--- | :--- |
-| **Elektromagnetická kompatibilita (EMC)** |Faradayova klec| Napěťové špičky z indukční zátěže hydraulických ventilů způsobí restart MCU... | `...` |
-| **Mechanická a teplotní odolnost** | PLA plast a montáž na těleso lisu | PLA krabička se rozteče kvůli vysokým teplotám a odlepí kvůli vybracím | `...` |
+| **Elektromagnetická kompatibilita (EMC)** |Chybějící stínění / kování (žádná Faradayova klec) a hobby relé bez galvanického oddělení| Napěťové špičky z indukční zátěže hydraulických ventilů způsobí restart MCU... | Ztráta kontroly nad strojem, neřízené spínání nebo neočekávaný pohyb hydraulického lisu bez možnosti zásahu obsluhy.|
+| **Mechanická a teplotní odolnost** | PLA plast a montáž na těleso lisu | PLA krabička se rozteče kvůli vysokým teplotám a odlepí kvůli vybracím | Odpadnutí a rozpadnutí řídicí jednotky, vytržení kabeláže a přímá expozice elektroniky vlhkosti, prachu a teplu s následným zkratem |
 | **Konektivita a propojení vodičů** | DuPont propojovací kabely bez aretace | Kabely mohou vypadnout kvůli vibracím | Vypadnuté kabely můžou probít obsluhu nebo zkratovat stroj |
 | **Funkční bezpečnost (Safety)** | Nouzový stop řešený softwarově v čipu | Čip se může poškodit a selže celý E stop | 💀 |
 
