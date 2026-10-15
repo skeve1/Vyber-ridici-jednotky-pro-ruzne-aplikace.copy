@@ -326,11 +326,11 @@ Představte si, že management firmy rozhoduje mezi dvěma variantami řízení 
 
 | Aspekt životního cyklu | Varianta 1 (Custom Embedded MCU) | Varianta 2 (Průmyslové PLC) |
 | :--- | :--- | :--- |
-| **Dostupnost náhradních dílů za 10 let** | `...` | `...` |
-| **Servisovatelnost podnikovým elektrikářem** | `...` | `...` |
-| **Doba odstávky linky při poruše CPU** | `...` | `...` |
-| **Cena vývojových nástrojů a licencí IDE** | `...` | `...` |
-| **Závěrečné doporučení (kterou variantu vybrat a proč)** | `...` | `...` |
+| **Dostupnost náhradních dílů za 10 let** |**Nízká** - Díly můžou zastarat a bude potřeba předělat celou desku | **Vysoká** - Lehké sehnání náhradních dílů|
+| **Servisovatelnost podnikovým elektrikářem** | **Dost špatná** - Bez dokumentace programování nemůže elektrikář zjistit a opravit problém | **Výborná** - Elektrikář dokáže najít problém a opravit ho|
+| **Doba odstávky linky při poruše CPU** | **Dny až týdny** - Potřeba sehnat speciální náhradní díly a programátora na opravu | **Minuty až den** - Stačí vyměnit součástku a nahrát program|
+| **Cena vývojových nástrojů a licencí IDE** | **Nízká nebo zdarma** - Použití open-source nástrojů| **Vysoká** - Cena za licenční používaní vývojového prostředí může být i desítkách tisíc |
+| **Závěrečné doporučení (kterou variantu vybrat a proč)** | **Nedoporučuje se** - Sice levné použití na začátku ale postupně se to může dost vydražit| **Doporučuje se** - Pořizovací cena a cena za licenci je vysoká ale může to ušetřit během 15 let dost peněz |
 
 > :key: **Vysvětlení pojmů a odborné zdroje:**
 > - **CAPEX (Capital Expenditure)**: Zjednodušeně jde o jednorázové kapitálové výdaje na pořízení samotného zařízení (hardware, licence).
