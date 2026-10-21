@@ -220,11 +220,11 @@ Jste v roli projektanta automatizace. Zákazník poptává zhotovení řízení 
    - Uveďte:
      - Výrobce a přesný model CPU: Siemens SIMATIC S7-1200 SIPLUS CPU 1212C DC/DC/Relay	
      - Objednací kód (Part Number / Order Code): 6AG1212-1HE40-4XB0
-     - Rozšiřující moduly (pokud jsou nutné pro AI 4–20 mA nebo AO 0–10 V): pro AO - SIPLUS SM 1232, 4 AO 6AG1232-4HD32-4XB0 + pro DO - SIPLUS SM 1222, 8 DO transistor 24 V DC / 0,5 A 6AG1222-1BF32-4XB0
+     - Rozšiřující moduly (pokud jsou nutné pro AI 4–20 mA nebo AO 0–10 V): SM 1234 (4× AI / 2× AO) (6ES7234-4HE32-0XB0) SB 1222 (4× DO 24 V DC) (6ES7222-1BD30-0XB0)
      - Napájecí napětí zvolené jednotky: 24V DC
      - Jak je vyřešeno odesílání dat na dispečink: 	Přes Ethernet / Modbus TCP
-     - Odkaz na technický list (datasheet): https://sieportal.siemens.com/en-ww/products-services/detail/6AG12221BF324XB0?utm_source=chatgpt.com&tree=CatalogTree#overview
-     - Odkazy na další použité zdroje: 
+     - Odkaz na technický list (datasheet): https://www.jork.shop/priloha.php?ak=53711 https://www.jork.shop/priloha.php?ak=53768  https://www.jork.shop/priloha.php?ak=56237
+     - Odkazy na další použité zdroje: https://www.jork.shop/produkt/siemens/automatizacni-systemy/ridici-system-simatic-s7-1200/ridici-system-simatic-s7-1200/cpu/6es7212-1he40-0xb0-86351.htm https://www.jork.shop/produkt/siemens/automatizacni-systemy/ridici-system-simatic-s7-1200/ridici-system-simatic-s7-1200/analogove-moduly/6es7234-4he32-0xb0-85403.htm https://www.jork.shop/produkt/siemens/automatizacni-systemy/ridici-system-simatic-s7-1200/ridici-system-simatic-s7-1200/signalni-moduly-vlozene-do-cpu/6es7222-1bd30-0xb0-83060.htm + gemini
 
 3. **Technické ověření z datasheetu:**
    - Zvládá zvolená jednotka garantovaný provoz při -20 °C? Doložte údaj z datasheetu: SIPLUS S7-1200 SM 1222 8DQ based on 6ES7222-1BF32-0XB0 with conformal coating, -20…+60 °C
