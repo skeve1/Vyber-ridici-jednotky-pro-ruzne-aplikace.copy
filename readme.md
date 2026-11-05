@@ -285,8 +285,9 @@ Jako vedoucí inženýr jste převzal projekt po nezkušeném brigádníkovi, kt
 2. **Návrh profesionálního nápravného řešení:**
    - Navrhněte, jakými certifikovanými průmyslovými komponenty tento celek nahradíte při zachování minimálního rozpočtu:
      - *Náhrada řídicí jednotky:Kompaktní průmyslové programovatelné relé (PLC) s certifikací pro průmyslové použití (např. Siemens LOGO!) umístěné v kovové rozvaděčové skříni na DIN liště
-     - *Náhrada napájecího zdroje:* `...` *(např. stabilizovaný průmyslový zdroj 24 V DC na DIN lištu s ochranou proti přepětí)*
-     - *Způsob zapojení bezpečnostního okruhu (Safety):* Jak musí být podle norem zapojeno tlačítko Emergency Stop (E-Stop)? Smí být spoléháno pouze na software mikrokontroléru? Zdůvodněte: `...`
+     - *Náhrada napájecího zdroje:Průmyslový spínaný zdroj 24 V DC pro montáž na DIN lištu s integrovanou ochranou proti přepětí (např. od
+Mean Well).
+     - *Způsob zapojení bezpečnostního okruhu (Safety):* Jak musí být podle norem zapojeno tlačítko Emergency Stop (E-Stop)? Smí být spoléháno pouze na software mikrokontroléru? Zdůvodněte:Tlačítko E-Stop nesmí být zapojeno pouze do běžného digitálního vstupu mikroprocesoru nebo řešeno softwarově. Musí jít o tvrdé hardwarové řešení – dvoukanálové nouzové tlačítko s nuceným rozpínacím kontaktem, které přímo ovládá bezpečnostní relé (nebo bezpečnostní PLC). To fyzicky odpojí napájení akčních členů (cívek hydraulických ventilů/motoru) nezávisle na stavu hlavního procesoru.
 
 > **Kritéria hodnocení úlohy 5 (bodování a známka):**
 > - :star: **Odborná úroveň identifikace závad (35 %):** Přesná technická terminologie (např. elektromagnetická indukce, absence odrušovacích varistorů, skelný přechod PLA plastu při 60 °C, studené spoje a vyklepání konektorů vibracemi).
